@@ -26,7 +26,7 @@ end
 
 def list_of_directors(source)
   # Write this implementation
-  director_list = {} 
+  director_list = [] 
   director_index = 0 
   while director_index < source.size do 
     director_list.push(source[director_index][:name])
